@@ -1,0 +1,356 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.logo1{
+width: 170px;
+margin-left: 100px;
+}
+
+
+/* ____________________________________nav__________________________________________ */
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: flex-end; /* Align the navbar to the right */
+    padding: 10px;
+    position: absolute; /* Position navbar absolutely */
+    top: 10px; /* Align to top of the page */
+    right: 100px; /* Align to right edge of the page */
+}
+
+/* Remove background and border for the dropdown button */
+.btn-secondary {
+    background-color: transparent !important;
+    border: none !important;
+    color: white !important; /* Default color */
+    padding: 10px 15px;
+    text-transform: uppercase;
+    margin-left: 10px; /* Adjust spacing between dropdowns */
+    position: relative; /* Ensure it positions correctly for the dropdown */
+}
+
+/* Change color to orange on hover */
+.btn-secondary:hover {
+    color: orange !important;
+    transition: 0.3s;
+}
+
+/* Remove the default dropdown arrow */
+.no-arrow::after {
+    display: none !important;
+}
+
+/* Dropdown container styling */
+.dropdown {
+    position: relative; /* Position relative to control dropdown visibility */
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+    background-color: white !important; /* Same as the nav background */
+    border: 1px white solid !important;
+    box-shadow: none !important;
+    position: absolute; /* Position dropdown menu absolutely */
+    left: 0; /* Align dropdown menu to the left */
+    top: 100%; /* Position dropdown below the button */
+    display: none; /* Hide dropdown by default */
+    z-index: 1000; /* Ensure dropdown is on top */
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+    display: block; /* Show dropdown when hovering over the parent */
+}
+
+/* Style the dropdown items */
+.dropdown-item {
+    color: orange !important;
+    padding: 10px 15px !important;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change color of dropdown items on hover */
+.dropdown-item:hover {
+    color: black !important;
+}
+
+.icon-hover {
+    color: #ffffff !important; /* Default color with !important */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.icon-hover:hover {
+    color: #f80 !important; /* Orange color on hover with !important */
+}
+
+
+
+/* _________nav___________ */
+
+
+.img1{
+    width: 100%;
+}
+
+.container5 {
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #fff; /* Ensure text color is readable on dark background */
+    width: 780px;
+    margin-top: -400px;
+    margin-left: 50px;
+    position: relative; /* Ensure the element is positioned relative to its normal position */
+    z-index: 10; /* Higher z-index to ensure it is on top of other elements */
+    padding: 20px;
+    text-align: center; /* Center text and inline elements */
+
+}
+
+
+
+.h101,.p01{
+    text-align: center;
+    color: white;
+
+}
+
+.b01{
+    padding: 15px 20px;
+    border-radius: 6px;
+    background-color: #f80;
+    color: #fff;
+    width: 350px;
+    border: none; /* Ensure no border */
+    font-size: 20px; /* Adjust font size as needed */
+    gap: 1000px;
+    font-weight: bold;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    gap: 20px; /* Increase the space between buttons (adjust as needed) */
+    margin-top: 20px; /* Space above the button container */
+    margin-bottom: 20px;
+}
+
+.b01:hover{
+    background-color: rgb(52, 52, 52);
+    transition: 0.3s;
+
+}
+
+.bannerimg {
+    width: 75%;
+    margin-top: 185px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainh1{
+    text-align: center;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+.container01 {
+    display: flex;
+    justify-content: center; /* Centers the items horizontally */
+    gap: 35px; /* Control space between items */
+    margin: 0 auto; /* Centers the container within its parent */
+    margin-top: 60px;
+    padding: 0; /* Ensure no additional padding */
+}
+
+.item {
+    text-align: center; /* Centers the image and paragraph within each item */
+    padding: 0; /* Remove any padding */
+    margin: 0; /* Remove any margin */
+    width: 370px; /* Increase width to accommodate larger images */
+}
+
+.imgg {
+    width: 100%; /* Ensure the image takes the full width of the item */
+    margin: 0 auto;
+    display: block;
+    padding: 0; /* Remove any padding */
+}
+
+.item p {
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+    margin-top: 50px;
+    font-weight: bold;
+    color: #f80;
+}
+
+.item h4{
+    font-size: 21px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 450;
+    line-height: 1.5;
+}
+
+.item p:hover{
+    color: black;
+    transition: 0.4s;
+
+}
+
+
+.b02 {
+    display: block; /* Ensures the button is treated as a block-level element */
+    margin: 50px auto 0; /* Centers button horizontally and sets top margin */
+    padding: 15px 30px;
+    border-radius: 6px;
+    background-color: #f80;
+    color: #fff;
+    width: 290px;
+    border: none; /* Ensure no border */
+    font-size: 17px; /* Adjust font size as needed */
+    font-weight: bold;
+    text-align: center; /* Centers text inside the button */
+}
+.b02:hover{
+    background-color: rgb(52, 52, 52);
+    transition: 0.3s;
+}
+.p02{
+    font-size: 28px;
+}
+
+.h102{
+    text-align: center;
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: 33px;
+}
+.h402{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 450;
+}
+
+.imgg2{
+    width: 75%;
+}
+
+.container02 {
+    display: flex;
+    justify-content: center; /* Centers the items horizontally */
+    margin: 0 auto; /* Centers the container within its parent */
+    margin-top: 60px;
+    padding: 0; /* Ensure no additional padding */
+}
+
+.item2 {
+    text-align: center; /* Centers the image and paragraph within each item */
+    padding: 0; /* Remove any padding */
+    margin: 0; /* Remove any margin */
+    width: 100%; /*Increase width to accommodate larger images*/
+}
+
+.b03{
+    display: block; /* Ensures the button is treated as a block-level element */
+    margin: 50px auto 0; /* Centers button horizontally and sets top margin */
+    padding: 20px 30px;
+    border-radius: 6px;
+    background-color: white;
+    color: #f80;
+    width: 290px;
+    border: 2px #f80 solid; /* Ensure no border */
+    font-size: 17px; /* Adjust font size as needed */
+    font-weight: bold;
+    text-align: center; /* Centers text inside the button */
+}
+
+.b03:hover{
+    background-color: rgb(52, 52, 52);
+    transition: 0.3s;
+    color: white;
+    border: 2px solid; /* Ensure no border */
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    margin-top: 85px;
+    padding-bottom: 80px;
+}
+
+.container03 {
+    display: flex;
+    justify-content: center; /* Centers the items horizontally */
+    gap: 35px; /* Control space between items */
+    margin: 0 auto; /* Centers the container within its parent */
+    margin-top: 60px;
+    padding: 0; /* Ensure no additional padding */
+}
+
+.item3 {
+    text-align: center; /* Centers the image and paragraph within each item */
+    padding: 0; /* Remove any padding */
+    margin: 0; /* Remove any margin */
+    width: 100%; /*Increase width to accommodate larger images*/
+    margin-top: 70px;
+}
+
+.footh4{
+    font-size: 35px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.footh5{
+    font-size: 17px;
+    color: white;
+    padding: 3px;
+    
+}
+
+.logo{
+    width: 10%;
+}
+.logo:hover{
+transform: scale(1.2);
+transition: 0.5s;
+}
+
+.footp{
+    color: rgb(84, 96, 96);
+    text-align: center;
+    margin-top: 80px;
+    font-size: 18px;
+}
+
+.foota{
+    text-decoration: none;
+    color: #fff;
+}
+
+.foota:hover{
+    color: #f80;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+
+.link{
+    text-decoration: none;
+    color: #f80;
+}
+.link:hover{
+    color: black;
+    transition: 0.3s;
+}
+
+
+
+
